@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                bat '"F:\Git\bin\\bash.exe" -c "chmod +x ./jenkins/scripts/test.sh && ./jenkins/scripts/test.sh"'
+                bat '"F:\\Git\\bin\\bash.exe" -c "chmod +x ./jenkins/scripts/test.sh && ./jenkins/scripts/test.sh"'
             }
         }
     }
